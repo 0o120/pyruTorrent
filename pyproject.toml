@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyruTorrent"
+version = "1.0.0"
+authors = [
+	{ name="0x78", email="contact@0x78.com" }
+]
+requires-python = ">=3.7"
+description = "Simple library for communicating with rTorrent via ruTorrent's httprpc plugin"
+readme = "README.md"
+keywords = [
+	"rtorrent",
+    "rutorrent",
+	"bittorrent",
+    "xmlrpc",
+    "api",
+	"torrent"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Topic :: Communications :: File Sharing",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.7"
+]
+dependencies = [
+	"bencode.py=4.0.0",
+	"requests"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/0o120/pyruTorrent"
+
