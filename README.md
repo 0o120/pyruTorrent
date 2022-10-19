@@ -14,6 +14,8 @@ This was used for personal use, consider it experimental and use at own risk.
 
 ### Create Instance
 ```python
+from pyruTorrent import rTorrent
+
 rt = rTorrent(
 	host='xxxxxxxxxx',
 	port=123456,
