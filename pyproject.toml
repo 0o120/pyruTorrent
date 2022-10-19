@@ -28,7 +28,7 @@ classifiers = [
     "Programming Language :: Python :: 3.7"
 ]
 dependencies = [
-	"bencode.py=4.0.0",
+	"bencode.py == 4.0.0",
 	"requests"
 ]
 
