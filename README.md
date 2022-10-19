@@ -1,4 +1,4 @@
-# esutils
+# pyruTorrent
 
 This was used for personal use, consider it experimental and use at own risk.
 
